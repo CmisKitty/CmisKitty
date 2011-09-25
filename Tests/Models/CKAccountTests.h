@@ -7,7 +7,12 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "CKAccount.h"
 
-@interface CKAccountTests : SenTestCase
+@interface CKAccountTests : SenTestCase{
+    
+    CKAccount * account;
+    
+}
 
 @end

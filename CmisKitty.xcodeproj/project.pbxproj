@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		404331F2142F6FE800848E7F /* CKAccountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 404331F1142F6FE800848E7F /* CKAccountTests.m */; };
+		404331F9142F8B2E00848E7F /* CKAccountManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 404331F8142F8B2E00848E7F /* CKAccountManagerTests.m */; };
+		404331FA142F900600848E7F /* libRestKitCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4097A8A6142A8E3000563F13 /* libRestKitCoreData.a */; };
+		404331FB142F900600848E7F /* libRestKitJSONParserJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4097A8A2142A8E3000563F13 /* libRestKitJSONParserJSONKit.a */; };
+		404331FC142F900600848E7F /* libRestKitNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4097A896142A8E3000563F13 /* libRestKitNetwork.a */; };
+		404331FD142F900600848E7F /* libRestKitObjectMapping.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4097A898142A8E3000563F13 /* libRestKitObjectMapping.a */; };
+		404331FE142F900600848E7F /* libRestKitSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4097A89A142A8E3000563F13 /* libRestKitSupport.a */; };
+		40433200142F900600848E7F /* libRestKitXMLParserLibxml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4097A8A4142A8E3000563F13 /* libRestKitXMLParserLibxml.a */; };
+		40433205142F906000848E7F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40433201142F906000848E7F /* CFNetwork.framework */; };
+		40433206142F906000848E7F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40433202142F906000848E7F /* CoreData.framework */; };
+		40433207142F906000848E7F /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 40433203142F906000848E7F /* libxml2.dylib */; };
+		40433208142F906000848E7F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40433204142F906000848E7F /* MobileCoreServices.framework */; };
+		4043320A142F907E00848E7F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40433209142F907E00848E7F /* SystemConfiguration.framework */; };
+		4043320E142F915200848E7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4043320D142F915200848E7F /* UIKit.framework */; };
 		409789C3142A7D0800563F13 /* CmisKitty-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 409789A8142A7D0800563F13 /* CmisKitty-Prefix.pch */; };
 		409789C4142A7D0800563F13 /* CmisKitty.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789A9142A7D0800563F13 /* CmisKitty.h */; };
 		409789C5142A7D0800563F13 /* CKAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789AB142A7D0800563F13 /* CKAccount.h */; };
@@ -140,6 +154,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		404331F0142F6FE800848E7F /* CKAccountTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKAccountTests.h; sourceTree = "<group>"; };
+		404331F1142F6FE800848E7F /* CKAccountTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKAccountTests.m; sourceTree = "<group>"; };
+		404331F7142F8B2E00848E7F /* CKAccountManagerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKAccountManagerTests.h; sourceTree = "<group>"; };
+		404331F8142F8B2E00848E7F /* CKAccountManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKAccountManagerTests.m; sourceTree = "<group>"; };
+		40433201142F906000848E7F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		40433202142F906000848E7F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		40433203142F906000848E7F /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		40433204142F906000848E7F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		40433209142F907E00848E7F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4043320B142F90A500848E7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4043320D142F915200848E7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		409789A8142A7D0800563F13 /* CmisKitty-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CmisKitty-Prefix.pch"; sourceTree = "<group>"; };
 		409789A9142A7D0800563F13 /* CmisKitty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CmisKitty.h; sourceTree = "<group>"; };
 		409789AB142A7D0800563F13 /* CKAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKAccount.h; sourceTree = "<group>"; };
@@ -186,6 +211,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				404331FA142F900600848E7F /* libRestKitCoreData.a in Frameworks */,
+				404331FB142F900600848E7F /* libRestKitJSONParserJSONKit.a in Frameworks */,
+				404331FC142F900600848E7F /* libRestKitNetwork.a in Frameworks */,
+				404331FD142F900600848E7F /* libRestKitObjectMapping.a in Frameworks */,
+				404331FE142F900600848E7F /* libRestKitSupport.a in Frameworks */,
+				40433200142F900600848E7F /* libRestKitXMLParserLibxml.a in Frameworks */,
 				40F42751141D4D1E00E83D60 /* CFNetwork.framework in Frameworks */,
 				40F42752141D4D1E00E83D60 /* CoreData.framework in Frameworks */,
 				40F42753141D4D1E00E83D60 /* libxml2.dylib in Frameworks */,
@@ -199,6 +230,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4043320E142F915200848E7F /* UIKit.framework in Frameworks */,
+				4043320A142F907E00848E7F /* SystemConfiguration.framework in Frameworks */,
+				40433205142F906000848E7F /* CFNetwork.framework in Frameworks */,
+				40433206142F906000848E7F /* CoreData.framework in Frameworks */,
+				40433207142F906000848E7F /* libxml2.dylib in Frameworks */,
+				40433208142F906000848E7F /* MobileCoreServices.framework in Frameworks */,
 				40F426F5141D371900E83D60 /* SenTestingKit.framework in Frameworks */,
 				40F426F8141D371900E83D60 /* Foundation.framework in Frameworks */,
 				40F426FD141D371900E83D60 /* libCmisKitty.a in Frameworks */,
@@ -208,6 +245,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		404331EF142F6FE800848E7F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				404331F0142F6FE800848E7F /* CKAccountTests.h */,
+				404331F1142F6FE800848E7F /* CKAccountTests.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		404331F6142F8B2E00848E7F /* ObjectConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				404331F7142F8B2E00848E7F /* CKAccountManagerTests.h */,
+				404331F8142F8B2E00848E7F /* CKAccountManagerTests.m */,
+			);
+			path = ObjectConfiguration;
+			sourceTree = "<group>";
+		};
 		409789A7142A7D0800563F13 /* Source */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +314,8 @@
 		409789DD142A7D3000563F13 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				404331F6142F8B2E00848E7F /* ObjectConfiguration */,
+				404331EF142F6FE800848E7F /* Models */,
 				409789DE142A7D3000563F13 /* CmisKittyTests-Info.plist */,
 				409789DF142A7D3000563F13 /* CmisKittyTests.h */,
 				409789E0142A7D3000563F13 /* CmisKittyTests.m */,
@@ -288,6 +345,7 @@
 		40F426D8141D371900E83D60 = {
 			isa = PBXGroup;
 			children = (
+				4043320D142F915200848E7F /* UIKit.framework */,
 				4097A881142A8E2F00563F13 /* RestKit.xcodeproj */,
 				40F426E5141D371900E83D60 /* Frameworks */,
 				40F426E4141D371900E83D60 /* Products */,
@@ -308,6 +366,12 @@
 		40F426E5141D371900E83D60 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4043320B142F90A500848E7F /* UIKit.framework */,
+				40433209142F907E00848E7F /* SystemConfiguration.framework */,
+				40433201142F906000848E7F /* CFNetwork.framework */,
+				40433202142F906000848E7F /* CoreData.framework */,
+				40433203142F906000848E7F /* libxml2.dylib */,
+				40433204142F906000848E7F /* MobileCoreServices.framework */,
 				40F4274C141D4D1E00E83D60 /* CFNetwork.framework */,
 				40F4274D141D4D1E00E83D60 /* CoreData.framework */,
 				40F4274E141D4D1E00E83D60 /* libxml2.dylib */,
@@ -546,6 +610,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4097A8AD142A901800563F13 /* CmisKittyTests.m in Sources */,
+				404331F2142F6FE800848E7F /* CKAccountTests.m in Sources */,
+				404331F9142F8B2E00848E7F /* CKAccountManagerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +662,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Vendors/RestKit/Build\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SYMROOT = build;
 			};
@@ -614,6 +681,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Vendors/RestKit/Build\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SYMROOT = build;
 				VALIDATE_PRODUCT = YES;
