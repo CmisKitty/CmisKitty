@@ -1,0 +1,3 @@
+[submodule "Vendors/RestKit"]
+	path = Vendors/RestKit
+	url = git://github.com/RestKit/RestKit.git

@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		409789C3142A7D0800563F13 /* CmisKitty-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 409789A8142A7D0800563F13 /* CmisKitty-Prefix.pch */; };
+		409789C4142A7D0800563F13 /* CmisKitty.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789A9142A7D0800563F13 /* CmisKitty.h */; };
+		409789C5142A7D0800563F13 /* CKAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789AB142A7D0800563F13 /* CKAccount.h */; };
+		409789C6142A7D0800563F13 /* CKAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789AC142A7D0800563F13 /* CKAccount.m */; };
+		409789C7142A7D0800563F13 /* CKDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789AD142A7D0800563F13 /* CKDocument.h */; };
+		409789C8142A7D0800563F13 /* CKDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789AE142A7D0800563F13 /* CKDocument.m */; };
+		409789C9142A7D0800563F13 /* CKFolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789AF142A7D0800563F13 /* CKFolder.h */; };
+		409789CA142A7D0800563F13 /* CKFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789B0142A7D0800563F13 /* CKFolder.m */; };
+		409789CB142A7D0800563F13 /* CKFolderChildrenResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789B1142A7D0800563F13 /* CKFolderChildrenResponse.h */; };
+		409789CC142A7D0800563F13 /* CKFolderChildrenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789B2142A7D0800563F13 /* CKFolderChildrenResponse.m */; };
+		409789CD142A7D0800563F13 /* CKModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789B3142A7D0800563F13 /* CKModels.h */; };
+		409789CE142A7D0800563F13 /* CKObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789B4142A7D0800563F13 /* CKObject.h */; };
+		409789CF142A7D0800563F13 /* CKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789B5142A7D0800563F13 /* CKObject.m */; };
+		409789D0142A7D0800563F13 /* CKProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789B6142A7D0800563F13 /* CKProperty.h */; };
+		409789D1142A7D0800563F13 /* CKProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789B7142A7D0800563F13 /* CKProperty.m */; };
+		409789D2142A7D0800563F13 /* CKRepository.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789B8142A7D0800563F13 /* CKRepository.h */; };
+		409789D3142A7D0800563F13 /* CKRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789B9142A7D0800563F13 /* CKRepository.m */; };
+		409789D4142A7D0800563F13 /* CKStringProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789BA142A7D0800563F13 /* CKStringProperty.h */; };
+		409789D5142A7D0800563F13 /* CKStringProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789BB142A7D0800563F13 /* CKStringProperty.m */; };
+		409789D6142A7D0800563F13 /* CKAccountManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789BD142A7D0800563F13 /* CKAccountManager.h */; };
+		409789D7142A7D0800563F13 /* CKAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789BE142A7D0800563F13 /* CKAccountManager.m */; };
+		409789D8142A7D0800563F13 /* CKObjectManagerConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789BF142A7D0800563F13 /* CKObjectManagerConfigurator.h */; };
+		409789D9142A7D0800563F13 /* CKObjectManagerJSONConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789C0142A7D0800563F13 /* CKObjectManagerJSONConfigurator.h */; };
+		409789DA142A7D0800563F13 /* CKObjectManagerJSONConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789C1142A7D0800563F13 /* CKObjectManagerJSONConfigurator.m */; };
+		409789DB142A7D0800563F13 /* CKObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789C2142A7D0800563F13 /* CKObjectMapping.h */; };
+		409789E3142A7D3000563F13 /* CmisKittyTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789DF142A7D3000563F13 /* CmisKittyTests.h */; };
+		4097A8AD142A901800563F13 /* CmisKittyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789E0142A7D3000563F13 /* CmisKittyTests.m */; };
+		40F426E7141D371900E83D60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F426E6141D371900E83D60 /* Foundation.framework */; };
+		40F426F5141D371900E83D60 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F426F4141D371900E83D60 /* SenTestingKit.framework */; };
+		40F426F8141D371900E83D60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F426E6141D371900E83D60 /* Foundation.framework */; };
+		40F426FD141D371900E83D60 /* libCmisKitty.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F426E3141D371900E83D60 /* libCmisKitty.a */; };
+		40F42751141D4D1E00E83D60 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F4274C141D4D1E00E83D60 /* CFNetwork.framework */; };
+		40F42752141D4D1E00E83D60 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F4274D141D4D1E00E83D60 /* CoreData.framework */; };
+		40F42753141D4D1E00E83D60 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F4274E141D4D1E00E83D60 /* libxml2.dylib */; };
+		40F42754141D4D1E00E83D60 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F4274F141D4D1E00E83D60 /* MobileCoreServices.framework */; };
+		40F42755141D4D1E00E83D60 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F42750141D4D1E00E83D60 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4097A895142A8E3000563F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4097A881142A8E2F00563F13 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A07FC1255161B00976E89;
+			remoteInfo = RestKitNetwork;
+		};
+		4097A897142A8E3000563F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4097A881142A8E2F00563F13 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A08031255162C00976E89;
+			remoteInfo = RestKitObjectMapping;
+		};
+		4097A899142A8E3000563F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4097A881142A8E2F00563F13 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A080C12551D3000976E89;
+			remoteInfo = RestKitSupport;
+		};
+		4097A89B142A8E3000563F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4097A881142A8E2F00563F13 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 20808DBD13DE8CDC000A156A;
+			remoteInfo = "RestKitJSONParser+NXJSON";
+		};
+		4097A89D142A8E3000563F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4097A881142A8E2F00563F13 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2590E64F125231F600531FA8;
+			remoteInfo = "RestKitJSONParser+YAJL";
+		};
+		4097A89F142A8E3000563F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4097A881142A8E2F00563F13 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2590E66B1252353700531FA8;
+			remoteInfo = "RestKitJSONParser+SBJSON";
+		};
+		4097A8A1142A8E3000563F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4097A881142A8E2F00563F13 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73057FD11331AD2E001908EE;
+			remoteInfo = "RestKitJSONParser+JSONKit";
+		};
+		4097A8A3142A8E3000563F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4097A881142A8E2F00563F13 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25BD43BD1340315800DBACDD;
+			remoteInfo = "RestKitXMLParser+Libxml";
+		};
+		4097A8A5142A8E3000563F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4097A881142A8E2F00563F13 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A081412551D5300976E89;
+			remoteInfo = RestKitCoreData;
+		};
+		4097A8A7142A8E3000563F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4097A881142A8E2F00563F13 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2523360511E79F090048F9B4;
+			remoteInfo = RestKitThree20;
+		};
+		4097A8A9142A8E3000563F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4097A881142A8E2F00563F13 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F6C39A510FE5C95008F47C5;
+			remoteInfo = "RestKit Specs";
+		};
+		4097A8AB142A8E3800563F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4097A881142A8E2F00563F13 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 255B7588133BABBF00ED76AD;
+			remoteInfo = RestKit;
+		};
+		40F426FB141D371900E83D60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40F426DA141D371900E83D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F426E2141D371900E83D60;
+			remoteInfo = CmisKitty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		409789A8142A7D0800563F13 /* CmisKitty-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CmisKitty-Prefix.pch"; sourceTree = "<group>"; };
+		409789A9142A7D0800563F13 /* CmisKitty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CmisKitty.h; sourceTree = "<group>"; };
+		409789AB142A7D0800563F13 /* CKAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKAccount.h; sourceTree = "<group>"; };
+		409789AC142A7D0800563F13 /* CKAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKAccount.m; sourceTree = "<group>"; };
+		409789AD142A7D0800563F13 /* CKDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKDocument.h; sourceTree = "<group>"; };
+		409789AE142A7D0800563F13 /* CKDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKDocument.m; sourceTree = "<group>"; };
+		409789AF142A7D0800563F13 /* CKFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKFolder.h; sourceTree = "<group>"; };
+		409789B0142A7D0800563F13 /* CKFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKFolder.m; sourceTree = "<group>"; };
+		409789B1142A7D0800563F13 /* CKFolderChildrenResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKFolderChildrenResponse.h; sourceTree = "<group>"; };
+		409789B2142A7D0800563F13 /* CKFolderChildrenResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKFolderChildrenResponse.m; sourceTree = "<group>"; };
+		409789B3142A7D0800563F13 /* CKModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKModels.h; sourceTree = "<group>"; };
+		409789B4142A7D0800563F13 /* CKObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKObject.h; sourceTree = "<group>"; };
+		409789B5142A7D0800563F13 /* CKObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKObject.m; sourceTree = "<group>"; };
+		409789B6142A7D0800563F13 /* CKProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKProperty.h; sourceTree = "<group>"; };
+		409789B7142A7D0800563F13 /* CKProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKProperty.m; sourceTree = "<group>"; };
+		409789B8142A7D0800563F13 /* CKRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKRepository.h; sourceTree = "<group>"; };
+		409789B9142A7D0800563F13 /* CKRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKRepository.m; sourceTree = "<group>"; };
+		409789BA142A7D0800563F13 /* CKStringProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKStringProperty.h; sourceTree = "<group>"; };
+		409789BB142A7D0800563F13 /* CKStringProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKStringProperty.m; sourceTree = "<group>"; };
+		409789BD142A7D0800563F13 /* CKAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKAccountManager.h; sourceTree = "<group>"; };
+		409789BE142A7D0800563F13 /* CKAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKAccountManager.m; sourceTree = "<group>"; };
+		409789BF142A7D0800563F13 /* CKObjectManagerConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKObjectManagerConfigurator.h; sourceTree = "<group>"; };
+		409789C0142A7D0800563F13 /* CKObjectManagerJSONConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKObjectManagerJSONConfigurator.h; sourceTree = "<group>"; };
+		409789C1142A7D0800563F13 /* CKObjectManagerJSONConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKObjectManagerJSONConfigurator.m; sourceTree = "<group>"; };
+		409789C2142A7D0800563F13 /* CKObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKObjectMapping.h; sourceTree = "<group>"; };
+		409789DE142A7D3000563F13 /* CmisKittyTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CmisKittyTests-Info.plist"; sourceTree = "<group>"; };
+		409789DF142A7D3000563F13 /* CmisKittyTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CmisKittyTests.h; sourceTree = "<group>"; };
+		409789E0142A7D3000563F13 /* CmisKittyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CmisKittyTests.m; sourceTree = "<group>"; };
+		409789E2142A7D3000563F13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4097A881142A8E2F00563F13 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = Vendors/RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		40F426E3141D371900E83D60 /* libCmisKitty.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCmisKitty.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F426E6141D371900E83D60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		40F426F3141D371900E83D60 /* CmisKittyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CmisKittyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F426F4141D371900E83D60 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		40F4274C141D4D1E00E83D60 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		40F4274D141D4D1E00E83D60 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		40F4274E141D4D1E00E83D60 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		40F4274F141D4D1E00E83D60 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		40F42750141D4D1E00E83D60 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40F426E0141D371900E83D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F42751141D4D1E00E83D60 /* CFNetwork.framework in Frameworks */,
+				40F42752141D4D1E00E83D60 /* CoreData.framework in Frameworks */,
+				40F42753141D4D1E00E83D60 /* libxml2.dylib in Frameworks */,
+				40F42754141D4D1E00E83D60 /* MobileCoreServices.framework in Frameworks */,
+				40F42755141D4D1E00E83D60 /* SystemConfiguration.framework in Frameworks */,
+				40F426E7141D371900E83D60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F426EF141D371900E83D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F426F5141D371900E83D60 /* SenTestingKit.framework in Frameworks */,
+				40F426F8141D371900E83D60 /* Foundation.framework in Frameworks */,
+				40F426FD141D371900E83D60 /* libCmisKitty.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		409789A7142A7D0800563F13 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				409789A8142A7D0800563F13 /* CmisKitty-Prefix.pch */,
+				409789A9142A7D0800563F13 /* CmisKitty.h */,
+				409789AA142A7D0800563F13 /* Models */,
+				409789BC142A7D0800563F13 /* ObjectConfiguration */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		409789AA142A7D0800563F13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				409789AB142A7D0800563F13 /* CKAccount.h */,
+				409789AC142A7D0800563F13 /* CKAccount.m */,
+				409789AD142A7D0800563F13 /* CKDocument.h */,
+				409789AE142A7D0800563F13 /* CKDocument.m */,
+				409789AF142A7D0800563F13 /* CKFolder.h */,
+				409789B0142A7D0800563F13 /* CKFolder.m */,
+				409789B1142A7D0800563F13 /* CKFolderChildrenResponse.h */,
+				409789B2142A7D0800563F13 /* CKFolderChildrenResponse.m */,
+				409789B3142A7D0800563F13 /* CKModels.h */,
+				409789B4142A7D0800563F13 /* CKObject.h */,
+				409789B5142A7D0800563F13 /* CKObject.m */,
+				409789B6142A7D0800563F13 /* CKProperty.h */,
+				409789B7142A7D0800563F13 /* CKProperty.m */,
+				409789B8142A7D0800563F13 /* CKRepository.h */,
+				409789B9142A7D0800563F13 /* CKRepository.m */,
+				409789BA142A7D0800563F13 /* CKStringProperty.h */,
+				409789BB142A7D0800563F13 /* CKStringProperty.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		409789BC142A7D0800563F13 /* ObjectConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				409789BD142A7D0800563F13 /* CKAccountManager.h */,
+				409789BE142A7D0800563F13 /* CKAccountManager.m */,
+				409789BF142A7D0800563F13 /* CKObjectManagerConfigurator.h */,
+				409789C0142A7D0800563F13 /* CKObjectManagerJSONConfigurator.h */,
+				409789C1142A7D0800563F13 /* CKObjectManagerJSONConfigurator.m */,
+				409789C2142A7D0800563F13 /* CKObjectMapping.h */,
+			);
+			path = ObjectConfiguration;
+			sourceTree = "<group>";
+		};
+		409789DD142A7D3000563F13 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				409789DE142A7D3000563F13 /* CmisKittyTests-Info.plist */,
+				409789DF142A7D3000563F13 /* CmisKittyTests.h */,
+				409789E0142A7D3000563F13 /* CmisKittyTests.m */,
+				409789E1142A7D3000563F13 /* InfoPlist.strings */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		4097A882142A8E2F00563F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4097A896142A8E3000563F13 /* libRestKitNetwork.a */,
+				4097A898142A8E3000563F13 /* libRestKitObjectMapping.a */,
+				4097A89A142A8E3000563F13 /* libRestKitSupport.a */,
+				4097A89C142A8E3000563F13 /* libRestKitJSONParserNXJSON.a */,
+				4097A89E142A8E3000563F13 /* libRestKitJSONParserYAJL.a */,
+				4097A8A0142A8E3000563F13 /* libRestKitJSONParserSBJSON.a */,
+				4097A8A2142A8E3000563F13 /* libRestKitJSONParserJSONKit.a */,
+				4097A8A4142A8E3000563F13 /* libRestKitXMLParserLibxml.a */,
+				4097A8A6142A8E3000563F13 /* libRestKitCoreData.a */,
+				4097A8A8142A8E3000563F13 /* libRestKitThree20.a */,
+				4097A8AA142A8E3000563F13 /* RestKitSpecs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40F426D8141D371900E83D60 = {
+			isa = PBXGroup;
+			children = (
+				4097A881142A8E2F00563F13 /* RestKit.xcodeproj */,
+				40F426E5141D371900E83D60 /* Frameworks */,
+				40F426E4141D371900E83D60 /* Products */,
+				409789A7142A7D0800563F13 /* Source */,
+				409789DD142A7D3000563F13 /* Tests */,
+			);
+			sourceTree = "<group>";
+		};
+		40F426E4141D371900E83D60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40F426E3141D371900E83D60 /* libCmisKitty.a */,
+				40F426F3141D371900E83D60 /* CmisKittyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40F426E5141D371900E83D60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40F4274C141D4D1E00E83D60 /* CFNetwork.framework */,
+				40F4274D141D4D1E00E83D60 /* CoreData.framework */,
+				40F4274E141D4D1E00E83D60 /* libxml2.dylib */,
+				40F4274F141D4D1E00E83D60 /* MobileCoreServices.framework */,
+				40F42750141D4D1E00E83D60 /* SystemConfiguration.framework */,
+				40F426E6141D371900E83D60 /* Foundation.framework */,
+				40F426F4141D371900E83D60 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		40F426E1141D371900E83D60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409789C3142A7D0800563F13 /* CmisKitty-Prefix.pch in Headers */,
+				409789C4142A7D0800563F13 /* CmisKitty.h in Headers */,
+				409789C5142A7D0800563F13 /* CKAccount.h in Headers */,
+				409789C7142A7D0800563F13 /* CKDocument.h in Headers */,
+				409789C9142A7D0800563F13 /* CKFolder.h in Headers */,
+				409789CB142A7D0800563F13 /* CKFolderChildrenResponse.h in Headers */,
+				409789CD142A7D0800563F13 /* CKModels.h in Headers */,
+				409789CE142A7D0800563F13 /* CKObject.h in Headers */,
+				409789D0142A7D0800563F13 /* CKProperty.h in Headers */,
+				409789D2142A7D0800563F13 /* CKRepository.h in Headers */,
+				409789D4142A7D0800563F13 /* CKStringProperty.h in Headers */,
+				409789D6142A7D0800563F13 /* CKAccountManager.h in Headers */,
+				409789D8142A7D0800563F13 /* CKObjectManagerConfigurator.h in Headers */,
+				409789D9142A7D0800563F13 /* CKObjectManagerJSONConfigurator.h in Headers */,
+				409789DB142A7D0800563F13 /* CKObjectMapping.h in Headers */,
+				409789E3142A7D3000563F13 /* CmisKittyTests.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		40F426E2141D371900E83D60 /* CmisKitty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F4270A141D371900E83D60 /* Build configuration list for PBXNativeTarget "CmisKitty" */;
+			buildPhases = (
+				40F426DF141D371900E83D60 /* Sources */,
+				40F426E0141D371900E83D60 /* Frameworks */,
+				40F426E1141D371900E83D60 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4097A8AC142A8E3800563F13 /* PBXTargetDependency */,
+			);
+			name = CmisKitty;
+			productName = CmisKitty;
+			productReference = 40F426E3141D371900E83D60 /* libCmisKitty.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		40F426F2141D371900E83D60 /* CmisKittyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F4270D141D371900E83D60 /* Build configuration list for PBXNativeTarget "CmisKittyTests" */;
+			buildPhases = (
+				40F426EE141D371900E83D60 /* Sources */,
+				40F426EF141D371900E83D60 /* Frameworks */,
+				40F426F0141D371900E83D60 /* Resources */,
+				40F426F1141D371900E83D60 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40F426FC141D371900E83D60 /* PBXTargetDependency */,
+			);
+			name = CmisKittyTests;
+			productName = CmisKittyTests;
+			productReference = 40F426F3141D371900E83D60 /* CmisKittyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40F426DA141D371900E83D60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = CmisKitty;
+			};
+			buildConfigurationList = 40F426DD141D371900E83D60 /* Build configuration list for PBXProject "CmisKitty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 40F426D8141D371900E83D60;
+			productRefGroup = 40F426E4141D371900E83D60 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4097A882142A8E2F00563F13 /* Products */;
+					ProjectRef = 4097A881142A8E2F00563F13 /* RestKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				40F426E2141D371900E83D60 /* CmisKitty */,
+				40F426F2141D371900E83D60 /* CmisKittyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4097A896142A8E3000563F13 /* libRestKitNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitNetwork.a;
+			remoteRef = 4097A895142A8E3000563F13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4097A898142A8E3000563F13 /* libRestKitObjectMapping.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitObjectMapping.a;
+			remoteRef = 4097A897142A8E3000563F13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4097A89A142A8E3000563F13 /* libRestKitSupport.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitSupport.a;
+			remoteRef = 4097A899142A8E3000563F13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4097A89C142A8E3000563F13 /* libRestKitJSONParserNXJSON.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserNXJSON.a;
+			remoteRef = 4097A89B142A8E3000563F13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4097A89E142A8E3000563F13 /* libRestKitJSONParserYAJL.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserYAJL.a;
+			remoteRef = 4097A89D142A8E3000563F13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4097A8A0142A8E3000563F13 /* libRestKitJSONParserSBJSON.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserSBJSON.a;
+			remoteRef = 4097A89F142A8E3000563F13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4097A8A2142A8E3000563F13 /* libRestKitJSONParserJSONKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserJSONKit.a;
+			remoteRef = 4097A8A1142A8E3000563F13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4097A8A4142A8E3000563F13 /* libRestKitXMLParserLibxml.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitXMLParserLibxml.a;
+			remoteRef = 4097A8A3142A8E3000563F13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4097A8A6142A8E3000563F13 /* libRestKitCoreData.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitCoreData.a;
+			remoteRef = 4097A8A5142A8E3000563F13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4097A8A8142A8E3000563F13 /* libRestKitThree20.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitThree20.a;
+			remoteRef = 4097A8A7142A8E3000563F13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4097A8AA142A8E3000563F13 /* RestKitSpecs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = RestKitSpecs.app;
+			remoteRef = 4097A8A9142A8E3000563F13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40F426F0141D371900E83D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40F426F1141D371900E83D60 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40F426DF141D371900E83D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409789C6142A7D0800563F13 /* CKAccount.m in Sources */,
+				409789C8142A7D0800563F13 /* CKDocument.m in Sources */,
+				409789CA142A7D0800563F13 /* CKFolder.m in Sources */,
+				409789CC142A7D0800563F13 /* CKFolderChildrenResponse.m in Sources */,
+				409789CF142A7D0800563F13 /* CKObject.m in Sources */,
+				409789D1142A7D0800563F13 /* CKProperty.m in Sources */,
+				409789D3142A7D0800563F13 /* CKRepository.m in Sources */,
+				409789D5142A7D0800563F13 /* CKStringProperty.m in Sources */,
+				409789D7142A7D0800563F13 /* CKAccountManager.m in Sources */,
+				409789DA142A7D0800563F13 /* CKObjectManagerJSONConfigurator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F426EE141D371900E83D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4097A8AD142A901800563F13 /* CmisKittyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4097A8AC142A8E3800563F13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = 4097A8AB142A8E3800563F13 /* PBXContainerItemProxy */;
+		};
+		40F426FC141D371900E83D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40F426E2141D371900E83D60 /* CmisKitty */;
+			targetProxy = 40F426FB141D371900E83D60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		409789E1142A7D3000563F13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409789E2142A7D3000563F13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40F42708141D371900E83D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Vendors/RestKit/Build\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+				SYMROOT = build;
+			};
+			name = Debug;
+		};
+		40F42709141D371900E83D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Vendors/RestKit/Build\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+				SYMROOT = build;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40F4270B141D371900E83D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CmisKitty.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendors/RestKit/Specs/Runner\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/CmisKitty-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Vendors/RestKit/Build\"";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)”";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendors/RestKit/Examples/RKDiscussionBoardExample/DiscussionBoard/Libraries/three20\"",
+					"\"$(SRCROOT)/Vendors/RestKit/Specs/Runner/OCMock\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		40F4270C141D371900E83D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CmisKitty.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendors/RestKit/Specs/Runner\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/CmisKitty-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Vendors/RestKit/Build\"";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)”";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendors/RestKit/Examples/RKDiscussionBoardExample/DiscussionBoard/Libraries/three20\"",
+					"\"$(SRCROOT)/Vendors/RestKit/Specs/Runner/OCMock\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		40F4270E141D371900E83D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/CmisKitty-Prefix.pch";
+				INFOPLIST_FILE = "Tests/CmisKittyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		40F4270F141D371900E83D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/CmisKitty-Prefix.pch";
+				INFOPLIST_FILE = "Tests/CmisKittyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40F426DD141D371900E83D60 /* Build configuration list for PBXProject "CmisKitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F42708141D371900E83D60 /* Debug */,
+				40F42709141D371900E83D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F4270A141D371900E83D60 /* Build configuration list for PBXNativeTarget "CmisKitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F4270B141D371900E83D60 /* Debug */,
+				40F4270C141D371900E83D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F4270D141D371900E83D60 /* Build configuration list for PBXNativeTarget "CmisKittyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F4270E141D371900E83D60 /* Debug */,
+				40F4270F141D371900E83D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40F426DA141D371900E83D60 /* Project object */;
+}
