@@ -1,5 +1,5 @@
 //
-//  CBRepositoriesViewController.h
+//  CKRepositoriesViewController.h
 //  CKBrowser
 //
 //  Created by Björn Jonsson on 2011-09-06.

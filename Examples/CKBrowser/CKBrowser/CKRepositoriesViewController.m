@@ -1,5 +1,5 @@
 //
-//  CBRepositoriesViewController.m
+//  CKRepositoriesViewController.m
 //  CKBrowser
 //
 //  Created by Björn Jonsson on 2011-09-06.
@@ -175,7 +175,7 @@
 {
     // Navigation logic may go here. Create and push another view controller.
     
-     CKFolderViewController *detailViewController = [[CKFolderViewController alloc] initWithNibName:@"CBFolderViewController" bundle:nil];
+     CKFolderViewController *detailViewController = [[CKFolderViewController alloc] initWithNibName:@"CKFolderViewController" bundle:nil];
      CKRepository * repository = [self.repositories objectAtIndex:indexPath.row];
     detailViewController.folder = [[[CKFolder alloc] init] autorelease];
     detailViewController.folder.repository = repository;

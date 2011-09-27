@@ -1,5 +1,5 @@
 //
-//  CBObjectAttributesViewController.m
+//  CKObjectAttributesViewController.m
 //  CKBrowser
 //
 //  Created by Björn Jonsson on 2011-09-11.
@@ -181,7 +181,7 @@
     
     
     /*
-    CBResponse * response = (CBResponse *)object;
+    CKResponse * response = (CKResponse *)object;
     [self.objects addObjectsFromArray:response.objects];
     
     // get more objects, if available

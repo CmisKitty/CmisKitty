@@ -1,5 +1,5 @@
 //
-//  CBFolderViewController.m
+//  CKFolderViewController.m
 //  CKBrowser
 //
 //  Created by Björn Jonsson on 2011-09-06.
@@ -247,7 +247,7 @@
     }
     
     
-     CKFolderViewController *detailViewController = [[CKFolderViewController alloc] initWithNibName:@"CBFolderViewController" bundle:nil];
+     CKFolderViewController *detailViewController = [[CKFolderViewController alloc] initWithNibName:@"CKFolderViewController" bundle:nil];
     detailViewController.folder = [self.objects objectAtIndex:indexPath.row];
     detailViewController.folder.repository = self.folder.repository;
      // ...
@@ -259,7 +259,7 @@
 
 - (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath{
    
-    CKObjectAttributesViewController *detailViewController = [[CKObjectAttributesViewController alloc] initWithNibName:@"CBObjectAttributesViewController" bundle:nil];
+    CKObjectAttributesViewController *detailViewController = [[CKObjectAttributesViewController alloc] initWithNibName:@"CKObjectAttributesViewController" bundle:nil];
     detailViewController.object = [self.objects objectAtIndex:indexPath.row];
     detailViewController.object.repository = self.folder.repository;
     // ...
