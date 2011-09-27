@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		404331F2142F6FE800848E7F /* CKAccountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 404331F1142F6FE800848E7F /* CKAccountTests.m */; };
 		404331F9142F8B2E00848E7F /* CKAccountManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 404331F8142F8B2E00848E7F /* CKAccountManagerTests.m */; };
-		404331FA142F900600848E7F /* libRestKitCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4097A8A6142A8E3000563F13 /* libRestKitCoreData.a */; };
 		404331FB142F900600848E7F /* libRestKitJSONParserJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4097A8A2142A8E3000563F13 /* libRestKitJSONParserJSONKit.a */; };
 		404331FC142F900600848E7F /* libRestKitNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4097A896142A8E3000563F13 /* libRestKitNetwork.a */; };
 		404331FD142F900600848E7F /* libRestKitObjectMapping.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4097A898142A8E3000563F13 /* libRestKitObjectMapping.a */; };
@@ -22,30 +21,30 @@
 		4043320A142F907E00848E7F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40433209142F907E00848E7F /* SystemConfiguration.framework */; };
 		4043320E142F915200848E7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4043320D142F915200848E7F /* UIKit.framework */; };
 		409789C3142A7D0800563F13 /* CmisKitty-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 409789A8142A7D0800563F13 /* CmisKitty-Prefix.pch */; };
-		409789C4142A7D0800563F13 /* CmisKitty.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789A9142A7D0800563F13 /* CmisKitty.h */; };
-		409789C5142A7D0800563F13 /* CKAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789AB142A7D0800563F13 /* CKAccount.h */; };
+		409789C4142A7D0800563F13 /* CmisKitty.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789A9142A7D0800563F13 /* CmisKitty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		409789C5142A7D0800563F13 /* CKAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789AB142A7D0800563F13 /* CKAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		409789C6142A7D0800563F13 /* CKAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789AC142A7D0800563F13 /* CKAccount.m */; };
-		409789C7142A7D0800563F13 /* CKDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789AD142A7D0800563F13 /* CKDocument.h */; };
+		409789C7142A7D0800563F13 /* CKDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789AD142A7D0800563F13 /* CKDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		409789C8142A7D0800563F13 /* CKDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789AE142A7D0800563F13 /* CKDocument.m */; };
-		409789C9142A7D0800563F13 /* CKFolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789AF142A7D0800563F13 /* CKFolder.h */; };
+		409789C9142A7D0800563F13 /* CKFolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789AF142A7D0800563F13 /* CKFolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		409789CA142A7D0800563F13 /* CKFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789B0142A7D0800563F13 /* CKFolder.m */; };
-		409789CB142A7D0800563F13 /* CKFolderChildrenResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789B1142A7D0800563F13 /* CKFolderChildrenResponse.h */; };
+		409789CB142A7D0800563F13 /* CKFolderChildrenResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789B1142A7D0800563F13 /* CKFolderChildrenResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		409789CC142A7D0800563F13 /* CKFolderChildrenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789B2142A7D0800563F13 /* CKFolderChildrenResponse.m */; };
-		409789CD142A7D0800563F13 /* CKModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789B3142A7D0800563F13 /* CKModels.h */; };
-		409789CE142A7D0800563F13 /* CKObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789B4142A7D0800563F13 /* CKObject.h */; };
+		409789CD142A7D0800563F13 /* CKModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789B3142A7D0800563F13 /* CKModels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		409789CE142A7D0800563F13 /* CKObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789B4142A7D0800563F13 /* CKObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		409789CF142A7D0800563F13 /* CKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789B5142A7D0800563F13 /* CKObject.m */; };
-		409789D0142A7D0800563F13 /* CKProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789B6142A7D0800563F13 /* CKProperty.h */; };
+		409789D0142A7D0800563F13 /* CKProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789B6142A7D0800563F13 /* CKProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		409789D1142A7D0800563F13 /* CKProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789B7142A7D0800563F13 /* CKProperty.m */; };
-		409789D2142A7D0800563F13 /* CKRepository.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789B8142A7D0800563F13 /* CKRepository.h */; };
+		409789D2142A7D0800563F13 /* CKRepository.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789B8142A7D0800563F13 /* CKRepository.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		409789D3142A7D0800563F13 /* CKRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789B9142A7D0800563F13 /* CKRepository.m */; };
-		409789D4142A7D0800563F13 /* CKStringProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789BA142A7D0800563F13 /* CKStringProperty.h */; };
+		409789D4142A7D0800563F13 /* CKStringProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789BA142A7D0800563F13 /* CKStringProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		409789D5142A7D0800563F13 /* CKStringProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789BB142A7D0800563F13 /* CKStringProperty.m */; };
-		409789D6142A7D0800563F13 /* CKAccountManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789BD142A7D0800563F13 /* CKAccountManager.h */; };
+		409789D6142A7D0800563F13 /* CKAccountManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789BD142A7D0800563F13 /* CKAccountManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		409789D7142A7D0800563F13 /* CKAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789BE142A7D0800563F13 /* CKAccountManager.m */; };
-		409789D8142A7D0800563F13 /* CKObjectManagerConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789BF142A7D0800563F13 /* CKObjectManagerConfigurator.h */; };
-		409789D9142A7D0800563F13 /* CKObjectManagerJSONConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789C0142A7D0800563F13 /* CKObjectManagerJSONConfigurator.h */; };
+		409789D8142A7D0800563F13 /* CKObjectManagerConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789BF142A7D0800563F13 /* CKObjectManagerConfigurator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		409789D9142A7D0800563F13 /* CKObjectManagerJSONConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789C0142A7D0800563F13 /* CKObjectManagerJSONConfigurator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		409789DA142A7D0800563F13 /* CKObjectManagerJSONConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789C1142A7D0800563F13 /* CKObjectManagerJSONConfigurator.m */; };
-		409789DB142A7D0800563F13 /* CKObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789C2142A7D0800563F13 /* CKObjectMapping.h */; };
+		409789DB142A7D0800563F13 /* CKObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789C2142A7D0800563F13 /* CKObjectMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		409789E3142A7D3000563F13 /* CmisKittyTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789DF142A7D3000563F13 /* CmisKittyTests.h */; };
 		4097A8AD142A901800563F13 /* CmisKittyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789E0142A7D3000563F13 /* CmisKittyTests.m */; };
 		40F426E7141D371900E83D60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F426E6141D371900E83D60 /* Foundation.framework */; };
@@ -211,7 +210,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				404331FA142F900600848E7F /* libRestKitCoreData.a in Frameworks */,
 				404331FB142F900600848E7F /* libRestKitJSONParserJSONKit.a in Frameworks */,
 				404331FC142F900600848E7F /* libRestKitNetwork.a in Frameworks */,
 				404331FD142F900600848E7F /* libRestKitObjectMapping.a in Frameworks */,
@@ -390,7 +388,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				409789C3142A7D0800563F13 /* CmisKitty-Prefix.pch in Headers */,
 				409789C4142A7D0800563F13 /* CmisKitty.h in Headers */,
 				409789C5142A7D0800563F13 /* CKAccount.h in Headers */,
 				409789C7142A7D0800563F13 /* CKDocument.h in Headers */,
@@ -405,6 +402,7 @@
 				409789D8142A7D0800563F13 /* CKObjectManagerConfigurator.h in Headers */,
 				409789D9142A7D0800563F13 /* CKObjectManagerJSONConfigurator.h in Headers */,
 				409789DB142A7D0800563F13 /* CKObjectMapping.h in Headers */,
+				409789C3142A7D0800563F13 /* CmisKitty-Prefix.pch in Headers */,
 				409789E3142A7D3000563F13 /* CmisKittyTests.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

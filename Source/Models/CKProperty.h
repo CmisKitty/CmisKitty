@@ -1,6 +1,6 @@
 //
 //  CKProperty.h
-//  GoReader
+//  CKBrowser
 //
 //  Created by Björn Jonsson on 2011-09-10.
 //  Copyright 2011 CmisKitty

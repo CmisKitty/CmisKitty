@@ -1,8 +1,8 @@
 //
-//  CKFolder.m
+//  CBFolderViewController.h
 //  CKBrowser
 //
-//  Created by Björn Jonsson on 2011-09-11.
+//  Created by Björn Jonsson on 2011-09-06.
 //  Copyright 2011 CmisKitty
 //  
 //  Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,23 +18,22 @@
 //  limitations under the License.
 //
 
-#import "CKFolder.h"
+#import <UIKit/UIKit.h>
+#import <RestKit/RestKit.h>
+#import <CmisKitty/CmisKitty.h>
 
-@implementation CKFolder
-
-- (id)init
-{
-    self = [super init];
-    if (self) {
-        // Initialization code here.
-    }
+@interface CKFolderViewController : UITableViewController<RKObjectLoaderDelegate>{
     
-    return self;
+    @private
+    NSInteger _fetchSize;
+    CKFolder * _folder;
+    
+    NSInteger _nextFetchSkipCount;
+    NSMutableArray * _objects;
+    
 }
 
--(BOOL)isRootFolder{
-    
-    return self.repository && self.repository.rootFolderId && [self.repository.rootFolderId isEqualToString:self.objectId];
-}
+@property(nonatomic,retain) CKFolder * folder;
+@property(nonatomic,assign) NSInteger fetchSize;
 
 @end

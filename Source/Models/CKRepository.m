@@ -1,6 +1,6 @@
 //
 //  CBRepository.m
-//  GoReader
+//  CKBrowser
 //
 //  Created by Björn Jonsson on 2011-09-03.
 //  Copyright 2011 CmisKitty
@@ -20,6 +20,7 @@
 
 #import "CKRepository.h"
 #import <RestKit/RestKit.h>
+#import "CKAccountManager.h"
 
 @implementation CKRepository
 
@@ -35,7 +36,8 @@
 
 -(NSString *) rootFolderResourcePath{
     
-    NSString * baseUrl = [[[RKObjectManager sharedManager] client] baseURL];
+    CKAccountManager * manager = [CKAccountManager activeManager];
+    NSString * baseUrl = [[manager.objectManager client] baseURL];
     return [self.rootFolderUrl stringByReplacingOccurrencesOfString:baseUrl withString:@""];
     
 }

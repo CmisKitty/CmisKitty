@@ -1,5 +1,5 @@
 //
-//  CKFolder.m
+//  CBObjectAttributesViewController.h
 //  CKBrowser
 //
 //  Created by Björn Jonsson on 2011-09-11.
@@ -18,23 +18,16 @@
 //  limitations under the License.
 //
 
-#import "CKFolder.h"
+#import <UIKit/UIKit.h>
+#import <RestKit/RestKit.h>
+#import <CmisKitty/CmisKitty.h>
 
-@implementation CKFolder
-
-- (id)init
-{
-    self = [super init];
-    if (self) {
-        // Initialization code here.
-    }
+@interface CKObjectAttributesViewController : UITableViewController<RKObjectLoaderDelegate>{
     
-    return self;
+    CKObject * _object;
+    
 }
 
--(BOOL)isRootFolder{
-    
-    return self.repository && self.repository.rootFolderId && [self.repository.rootFolderId isEqualToString:self.objectId];
-}
+@property(nonatomic,retain) CKObject * object;
 
 @end
