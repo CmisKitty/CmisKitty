@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		401776D814310BB600BEDE6B /* libCmisKitty.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 401776C6142FD18D00BEDE6B /* libCmisKitty.a */; };
+		401776EC14310FAE00BEDE6B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401776E814310FAE00BEDE6B /* CFNetwork.framework */; };
+		401776ED14310FAE00BEDE6B /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 401776E914310FAE00BEDE6B /* libxml2.dylib */; };
+		401776EE14310FAE00BEDE6B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401776EA14310FAE00BEDE6B /* MobileCoreServices.framework */; };
+		401776EF14310FAE00BEDE6B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401776EB14310FAE00BEDE6B /* SystemConfiguration.framework */; };
+		4043321F142FB6BE00848E7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4043321E142FB6BE00848E7F /* UIKit.framework */; };
+		40433221142FB6BE00848E7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40433220142FB6BE00848E7F /* Foundation.framework */; };
+		40433223142FB6BE00848E7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40433222142FB6BE00848E7F /* CoreGraphics.framework */; };
+		40433229142FB6BE00848E7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40433227142FB6BE00848E7F /* InfoPlist.strings */; };
+		4043322B142FB6BE00848E7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4043322A142FB6BE00848E7F /* main.m */; };
+		4043322F142FB6BE00848E7F /* CKBrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4043322E142FB6BE00848E7F /* CKBrowserAppDelegate.m */; };
+		40433232142FB6BE00848E7F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40433230142FB6BE00848E7F /* MainWindow.xib */; };
+		4074F5A8143128160057C86A /* CKFolderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4074F59F143128160057C86A /* CKFolderViewController.xib */; };
+		4074F5A9143128160057C86A /* CKFolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4074F5A1143128160057C86A /* CKFolderViewController.m */; };
+		4074F5AA143128160057C86A /* CKObjectAttributesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4074F5A2143128160057C86A /* CKObjectAttributesViewController.xib */; };
+		4074F5AB143128160057C86A /* CKObjectAttributesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4074F5A4143128160057C86A /* CKObjectAttributesViewController.m */; };
+		4074F5AC143128160057C86A /* CKRepositoryInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4074F5A6143128160057C86A /* CKRepositoryInfoViewController.m */; };
+		4074F5AD143128160057C86A /* CKRepositoryInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4074F5A7143128160057C86A /* CKRepositoryInfoViewController.xib */; };
+		4074F5B1143128820057C86A /* CKRepositoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4074F5AE143128820057C86A /* CKRepositoriesViewController.xib */; };
+		4074F5B2143128820057C86A /* CKRepositoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4074F5B0143128820057C86A /* CKRepositoriesViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		401776C5142FD18D00BEDE6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 401776B7142FD18D00BEDE6B /* CmisKitty.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40F426E3141D371900E83D60;
+			remoteInfo = CmisKitty;
+		};
+		401776C7142FD18D00BEDE6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 401776B7142FD18D00BEDE6B /* CmisKitty.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40F426F3141D371900E83D60;
+			remoteInfo = CmisKittyTests;
+		};
+		401776D6142FD1AF00BEDE6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 401776B7142FD18D00BEDE6B /* CmisKitty.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F426E2141D371900E83D60;
+			remoteInfo = CmisKitty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		401776B7142FD18D00BEDE6B /* CmisKitty.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CmisKitty.xcodeproj; path = ../../CmisKitty.xcodeproj; sourceTree = "<group>"; };
+		401776E814310FAE00BEDE6B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		401776E914310FAE00BEDE6B /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		401776EA14310FAE00BEDE6B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		401776EB14310FAE00BEDE6B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4043321A142FB6BE00848E7F /* CKBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4043321E142FB6BE00848E7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		40433220142FB6BE00848E7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		40433222142FB6BE00848E7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		40433226142FB6BE00848E7F /* CKBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CKBrowser-Info.plist"; sourceTree = "<group>"; };
+		40433228142FB6BE00848E7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4043322A142FB6BE00848E7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4043322C142FB6BE00848E7F /* CKBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		4043322D142FB6BE00848E7F /* CKBrowserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CKBrowserAppDelegate.h; sourceTree = "<group>"; };
+		4043322E142FB6BE00848E7F /* CKBrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CKBrowserAppDelegate.m; sourceTree = "<group>"; };
+		40433231142FB6BE00848E7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4074F59F143128160057C86A /* CKFolderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CKFolderViewController.xib; sourceTree = "<group>"; };
+		4074F5A0143128160057C86A /* CKFolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKFolderViewController.h; sourceTree = "<group>"; };
+		4074F5A1143128160057C86A /* CKFolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKFolderViewController.m; sourceTree = "<group>"; };
+		4074F5A2143128160057C86A /* CKObjectAttributesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CKObjectAttributesViewController.xib; sourceTree = "<group>"; };
+		4074F5A3143128160057C86A /* CKObjectAttributesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKObjectAttributesViewController.h; sourceTree = "<group>"; };
+		4074F5A4143128160057C86A /* CKObjectAttributesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKObjectAttributesViewController.m; sourceTree = "<group>"; };
+		4074F5A5143128160057C86A /* CKRepositoryInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CKRepositoryInfoViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4074F5A6143128160057C86A /* CKRepositoryInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CKRepositoryInfoViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4074F5A7143128160057C86A /* CKRepositoryInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CKRepositoryInfoViewController.xib; sourceTree = "<group>"; };
+		4074F5AE143128820057C86A /* CKRepositoriesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CKRepositoriesViewController.xib; sourceTree = "<group>"; };
+		4074F5AF143128820057C86A /* CKRepositoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKRepositoriesViewController.h; sourceTree = "<group>"; };
+		4074F5B0143128820057C86A /* CKRepositoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKRepositoriesViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40433217142FB6BE00848E7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401776EC14310FAE00BEDE6B /* CFNetwork.framework in Frameworks */,
+				401776ED14310FAE00BEDE6B /* libxml2.dylib in Frameworks */,
+				401776EE14310FAE00BEDE6B /* MobileCoreServices.framework in Frameworks */,
+				401776EF14310FAE00BEDE6B /* SystemConfiguration.framework in Frameworks */,
+				401776D814310BB600BEDE6B /* libCmisKitty.a in Frameworks */,
+				4043321F142FB6BE00848E7F /* UIKit.framework in Frameworks */,
+				40433221142FB6BE00848E7F /* Foundation.framework in Frameworks */,
+				40433223142FB6BE00848E7F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		401776B8142FD18D00BEDE6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				401776C6142FD18D00BEDE6B /* libCmisKitty.a */,
+				401776C8142FD18D00BEDE6B /* CmisKittyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4043320F142FB6BE00848E7F = {
+			isa = PBXGroup;
+			children = (
+				401776E814310FAE00BEDE6B /* CFNetwork.framework */,
+				401776E914310FAE00BEDE6B /* libxml2.dylib */,
+				401776EA14310FAE00BEDE6B /* MobileCoreServices.framework */,
+				401776EB14310FAE00BEDE6B /* SystemConfiguration.framework */,
+				401776B7142FD18D00BEDE6B /* CmisKitty.xcodeproj */,
+				40433224142FB6BE00848E7F /* CKBrowser */,
+				4043321D142FB6BE00848E7F /* Frameworks */,
+				4043321B142FB6BE00848E7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4043321B142FB6BE00848E7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4043321A142FB6BE00848E7F /* CKBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4043321D142FB6BE00848E7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4043321E142FB6BE00848E7F /* UIKit.framework */,
+				40433220142FB6BE00848E7F /* Foundation.framework */,
+				40433222142FB6BE00848E7F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40433224142FB6BE00848E7F /* CKBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				4043322D142FB6BE00848E7F /* CKBrowserAppDelegate.h */,
+				4043322E142FB6BE00848E7F /* CKBrowserAppDelegate.m */,
+				4074F59F143128160057C86A /* CKFolderViewController.xib */,
+				4074F5A0143128160057C86A /* CKFolderViewController.h */,
+				4074F5A1143128160057C86A /* CKFolderViewController.m */,
+				4074F5A2143128160057C86A /* CKObjectAttributesViewController.xib */,
+				4074F5A3143128160057C86A /* CKObjectAttributesViewController.h */,
+				4074F5A4143128160057C86A /* CKObjectAttributesViewController.m */,
+				4074F5AE143128820057C86A /* CKRepositoriesViewController.xib */,
+				4074F5AF143128820057C86A /* CKRepositoriesViewController.h */,
+				4074F5B0143128820057C86A /* CKRepositoriesViewController.m */,
+				4074F5A5143128160057C86A /* CKRepositoryInfoViewController.h */,
+				4074F5A6143128160057C86A /* CKRepositoryInfoViewController.m */,
+				4074F5A7143128160057C86A /* CKRepositoryInfoViewController.xib */,
+				40433230142FB6BE00848E7F /* MainWindow.xib */,
+				40433225142FB6BE00848E7F /* Supporting Files */,
+			);
+			path = CKBrowser;
+			sourceTree = "<group>";
+		};
+		40433225142FB6BE00848E7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40433226142FB6BE00848E7F /* CKBrowser-Info.plist */,
+				40433227142FB6BE00848E7F /* InfoPlist.strings */,
+				4043322A142FB6BE00848E7F /* main.m */,
+				4043322C142FB6BE00848E7F /* CKBrowser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40433219142FB6BE00848E7F /* CKBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4043323B142FB6BE00848E7F /* Build configuration list for PBXNativeTarget "CKBrowser" */;
+			buildPhases = (
+				40433216142FB6BE00848E7F /* Sources */,
+				40433217142FB6BE00848E7F /* Frameworks */,
+				40433218142FB6BE00848E7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				401776D7142FD1AF00BEDE6B /* PBXTargetDependency */,
+			);
+			name = CKBrowser;
+			productName = CKBrowser;
+			productReference = 4043321A142FB6BE00848E7F /* CKBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40433211142FB6BE00848E7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Altran Sverige AB";
+			};
+			buildConfigurationList = 40433214142FB6BE00848E7F /* Build configuration list for PBXProject "CKBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4043320F142FB6BE00848E7F;
+			productRefGroup = 4043321B142FB6BE00848E7F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 401776B8142FD18D00BEDE6B /* Products */;
+					ProjectRef = 401776B7142FD18D00BEDE6B /* CmisKitty.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				40433219142FB6BE00848E7F /* CKBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		401776C6142FD18D00BEDE6B /* libCmisKitty.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCmisKitty.a;
+			remoteRef = 401776C5142FD18D00BEDE6B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		401776C8142FD18D00BEDE6B /* CmisKittyTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CmisKittyTests.octest;
+			remoteRef = 401776C7142FD18D00BEDE6B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40433218142FB6BE00848E7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40433229142FB6BE00848E7F /* InfoPlist.strings in Resources */,
+				40433232142FB6BE00848E7F /* MainWindow.xib in Resources */,
+				4074F5A8143128160057C86A /* CKFolderViewController.xib in Resources */,
+				4074F5AA143128160057C86A /* CKObjectAttributesViewController.xib in Resources */,
+				4074F5AD143128160057C86A /* CKRepositoryInfoViewController.xib in Resources */,
+				4074F5B1143128820057C86A /* CKRepositoriesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40433216142FB6BE00848E7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4043322B142FB6BE00848E7F /* main.m in Sources */,
+				4043322F142FB6BE00848E7F /* CKBrowserAppDelegate.m in Sources */,
+				4074F5A9143128160057C86A /* CKFolderViewController.m in Sources */,
+				4074F5AB143128160057C86A /* CKObjectAttributesViewController.m in Sources */,
+				4074F5AC143128160057C86A /* CKRepositoryInfoViewController.m in Sources */,
+				4074F5B2143128820057C86A /* CKRepositoriesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		401776D7142FD1AF00BEDE6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CmisKitty;
+			targetProxy = 401776D6142FD1AF00BEDE6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40433227142FB6BE00848E7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40433228142FB6BE00848E7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		40433230142FB6BE00848E7F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40433231142FB6BE00848E7F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40433239142FB6BE00848E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4043323A142FB6BE00848E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4043323C142FB6BE00848E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CKBrowser/CKBrowser-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
+				INFOPLIST_FILE = "CKBrowser/CKBrowser-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4043323D142FB6BE00848E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CKBrowser/CKBrowser-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
+				INFOPLIST_FILE = "CKBrowser/CKBrowser-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40433214142FB6BE00848E7F /* Build configuration list for PBXProject "CKBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40433239142FB6BE00848E7F /* Debug */,
+				4043323A142FB6BE00848E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4043323B142FB6BE00848E7F /* Build configuration list for PBXNativeTarget "CKBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4043323C142FB6BE00848E7F /* Debug */,
+				4043323D142FB6BE00848E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40433211142FB6BE00848E7F /* Project object */;
+}
