@@ -1,9 +1,9 @@
 //
-//  CKStringProperty.m
-//  CKBrowser
+//  CKBooleanProperty.h
+//  CmisKitty
 //
-//  Created by Björn Jonsson on 2011-09-10.
-//  Copyright 2011 CmisKitty
+//  Created by Björn Jonsson on 2011-10-11.
+//  Copyright 2011 CmisKitty. All rights reserved.
 //  
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -18,25 +18,14 @@
 //  limitations under the License.
 //
 
-#import "CKStringProperty.h"
+#import "CKProperty.h"
 
-@implementation CKStringProperty
+@interface CKBooleanProperty : CKProperty{
 
-@synthesize value = _value;
-
-- (id)init
-{
-    self = [super init];
-    if (self) {
-        // Initialization code here.
-    }
     
-    return self;
 }
 
--(NSString *)displayValue{
-    return self.value;
-}
-
+@property(nonatomic,retain) NSNumber * value;
+@property(nonatomic, assign) BOOL booleanValue;
 
 @end

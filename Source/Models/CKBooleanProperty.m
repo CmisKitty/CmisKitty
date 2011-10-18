@@ -1,9 +1,9 @@
 //
-//  CKStringProperty.m
-//  CKBrowser
+//  CKBooleanProperty.m
+//  CmisKitty
 //
-//  Created by Björn Jonsson on 2011-09-10.
-//  Copyright 2011 CmisKitty
+//  Created by Björn Jonsson on 2011-10-11.
+//  Copyright 2011 CmisKitty. All rights reserved.
 //  
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -18,9 +18,9 @@
 //  limitations under the License.
 //
 
-#import "CKStringProperty.h"
+#import "CKBooleanProperty.h"
 
-@implementation CKStringProperty
+@implementation CKBooleanProperty
 
 @synthesize value = _value;
 
@@ -34,9 +34,16 @@
     return self;
 }
 
--(NSString *)displayValue{
-    return self.value;
+-(BOOL)booleanValue{
+    return [self.value boolValue];
 }
 
+-(void)setBooleanValue:(BOOL)booleanValue{
+    self.value = [NSNumber numberWithBool:booleanValue];
+}
+
+-(NSString *)displayValue{
+    return self.booleanValue ? @"Yes" : @"No";
+}
 
 @end

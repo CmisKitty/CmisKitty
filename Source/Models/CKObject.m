@@ -21,6 +21,8 @@
 #import "CKObject.h"
 
 #import "CKProperty.h"
+#import "CKIDProperty.h"
+#import "CKStringProperty.h"
 
 @implementation CKObject
 
@@ -61,7 +63,7 @@
     return value;
 }
 
--(void)setValueOfPropertyWithIdentifier:(NSString *)identifier value:(id)value {
+-(void)setValueOfPropertyWithIdentifier:(NSString *)identifier value:(id)value type:(Class) clazz {
     
      
     NSUInteger index = [self indexOfPropertyWithIdentifer:identifier];
@@ -69,7 +71,7 @@
         CKProperty * property = [_properties objectAtIndex:index];
         property.value = value;
     }else{
-        CKProperty * property = [[CKProperty alloc] init];
+        CKProperty * property = [[clazz alloc] init];
         property.identifier = identifier;
         property.value = value;
         
@@ -85,7 +87,7 @@
 }
 
 -(void)setObjectId:(NSString *)objectId{
-    [self setValueOfPropertyWithIdentifier:@"cmis:objectId" value:objectId];
+    [self setValueOfPropertyWithIdentifier:@"cmis:objectId" value:objectId type:[CKIDProperty class]];
 }
 
 -(NSString *)name{
@@ -93,7 +95,7 @@
 }
 
 -(void)setName:(NSString *)name{
-    [self setValueOfPropertyWithIdentifier:@"cmis:name" value:name];
+    [self setValueOfPropertyWithIdentifier:@"cmis:name" value:name type:[CKStringProperty class]];
 }
 
 - (id)init

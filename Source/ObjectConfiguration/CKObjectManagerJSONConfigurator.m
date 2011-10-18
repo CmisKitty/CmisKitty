@@ -67,6 +67,7 @@
     [manager.mappingProvider addObjectMapping:repositoryMapping];
     
     // property
+    /*
     RKObjectMapping* stringPropertyMapping = [RKObjectMapping mappingForClass:[CKStringProperty class]];
     stringPropertyMapping.forceCollectionMapping = YES;
     [stringPropertyMapping mapKeyOfNestedDictionaryToAttribute:@"identifier"];
@@ -80,17 +81,70 @@
      nil
      ];
     [manager.mappingProvider setMapping:stringPropertyMapping forKeyPath:@"properties"];
+     */
+    
+    RKObjectMapping* stringPropertyMapping = [RKObjectMapping mappingForClass:[CKStringProperty class]];
+    RKObjectMapping* idPropertyMapping = [RKObjectMapping mappingForClass:[CKIDProperty class]];
+    RKObjectMapping* booleanPropertyMapping = [RKObjectMapping mappingForClass:[CKBooleanProperty class]];
+    RKObjectMapping* decimalPropertyMapping = [RKObjectMapping mappingForClass:[CKDecimalProperty class]];
+    RKObjectMapping* integerPropertyMapping = [RKObjectMapping mappingForClass:[CKIntegerProperty class]];
+    RKObjectMapping* datePropertyMapping = [RKObjectMapping mappingForClass:[CKDateProperty class]];
+    RKObjectMapping* uriPropertyMapping = [RKObjectMapping mappingForClass:[CKURIProperty class]];
+    
+    [stringPropertyMapping mapKeyOfNestedDictionaryToAttribute:@"identifier"];
+    [stringPropertyMapping mapKeyPathsToAttributes:
+        @"(identifier).localName", @"localName",
+        @"(identifier).queryName", @"queryName",
+        @"(identifier).value", @"value",
+        @"(identifier).type", @"type",
+        @"(identifier).displayName", @"displayName",
+        @"(identifier).cardinality", @"cardinality",
+        nil
+     ];
+    
+    for (RKObjectAttributeMapping * attributeMapping in [stringPropertyMapping attributeMappings]) {
+        [idPropertyMapping addAttributeMapping:attributeMapping];
+        [booleanPropertyMapping addAttributeMapping:attributeMapping];
+        [decimalPropertyMapping addAttributeMapping:attributeMapping];
+        [integerPropertyMapping addAttributeMapping:attributeMapping];
+        [datePropertyMapping addAttributeMapping:attributeMapping];
+        [uriPropertyMapping addAttributeMapping:attributeMapping];
+    }
+    
+    RKDynamicObjectMapping * propertiesMapping = [RKDynamicObjectMapping dynamicMapping];
+    propertiesMapping.forceCollectionMapping = YES;
+    propertiesMapping.objectMappingForDataBlock = ^ RKObjectMapping* (id data) {
+        NSString * keyPath = [NSString stringWithFormat:@"%@.type",[[(NSDictionary *)data allKeys] objectAtIndex:0]];
+        NSString * propertyType = [data valueForKeyPath:keyPath];
+        if ([propertyType isEqualToString:@"string"]) {
+            return stringPropertyMapping;
+        }else if([propertyType isEqualToString:@"id"]) {
+            return idPropertyMapping;
+        }else if([propertyType isEqualToString:@"boolean"]) {
+            return booleanPropertyMapping;
+        }else if([propertyType isEqualToString:@"decimal"]) {
+            return decimalPropertyMapping;
+        }else if([propertyType isEqualToString:@"integer"]) {
+            return stringPropertyMapping;
+        }else if([propertyType isEqualToString:@"datetime"]) {
+            return datePropertyMapping;
+        }else if([propertyType isEqualToString:@"uri"]) {
+            return uriPropertyMapping;
+        }
+        return nil;
+    };
+    
     
     // object mapping
     RKObjectMapping * folderMapping = [RKObjectMapping mappingForClass:[CKFolder class]];
-    [folderMapping mapKeyPath:@"object.properties" toRelationship:@"properties" withMapping:stringPropertyMapping];
-    [manager.mappingProvider addObjectMapping:folderMapping];
+    [folderMapping mapKeyPath:@"object.properties" toRelationship:@"properties" withMapping:propertiesMapping];
+    //[manager.mappingProvider addObjectMapping:folderMapping];
     
     RKObjectMapping * documentMapping = [RKObjectMapping mappingForClass:[CKDocument class]];
     [documentMapping mapKeyPath:@"object.properties" toRelationship:@"properties" withMapping:stringPropertyMapping];
-    [manager.mappingProvider addObjectMapping:documentMapping];
+    //[manager.mappingProvider addObjectMapping:documentMapping];
     
-    RKObjectDynamicMapping* objectMapping = [RKObjectDynamicMapping dynamicMapping];
+    RKDynamicObjectMapping* objectMapping = [RKDynamicObjectMapping dynamicMapping];
     [objectMapping setObjectMapping:folderMapping whenValueOfKeyPath:@"object.properties.cmis:objectTypeId.value" isEqualTo:@"cmis:folder"];
     [objectMapping setObjectMapping:folderMapping whenValueOfKeyPath:@"object.properties.cmis:objectTypeId.value" isEqualTo:@"cmis:document"];
     [manager.mappingProvider setMapping:objectMapping forKeyPath:@"object"];

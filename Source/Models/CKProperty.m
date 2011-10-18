@@ -25,11 +25,9 @@
 @synthesize identifier = _identifier;
 @synthesize localName = _localName;
 @synthesize queryName = _queryName;
-@synthesize value = _value;
 @synthesize type = _type;
 @synthesize displayName = _displayName;
 @synthesize cardinality = _cardinality;
-
 
 - (id)init
 {
@@ -39,6 +37,20 @@
     }
     
     return self;
+}
+
+- (NSString *)displayValue{
+    NSAssert(NO, @"Subclass must override displayValue method of property");
+    return nil;
+}
+
+-(id)value{
+    NSAssert(NO, @"Subclass must override value method of property");
+    return nil;
+}
+
+-(void)setValue:(id)value{
+    NSAssert(NO, @"Subclass must override setValue method of property");
 }
 
 @end

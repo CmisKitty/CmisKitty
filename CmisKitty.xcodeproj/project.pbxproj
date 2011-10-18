@@ -47,6 +47,18 @@
 		409789DB142A7D0800563F13 /* CKObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789C2142A7D0800563F13 /* CKObjectMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		409789E3142A7D3000563F13 /* CmisKittyTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 409789DF142A7D3000563F13 /* CmisKittyTests.h */; };
 		4097A8AD142A901800563F13 /* CmisKittyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 409789E0142A7D3000563F13 /* CmisKittyTests.m */; };
+		40A91FA2144761BF00C89400 /* CKDateProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A91FA0144761BF00C89400 /* CKDateProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40A91FA3144761BF00C89400 /* CKDateProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A91FA1144761BF00C89400 /* CKDateProperty.m */; };
+		40A91FB21447628400C89400 /* CKIntegerProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A91FB01447628400C89400 /* CKIntegerProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40A91FB31447628400C89400 /* CKIntegerProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A91FB11447628400C89400 /* CKIntegerProperty.m */; };
+		40A91FB6144764CC00C89400 /* CKDecimalProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A91FB4144764CB00C89400 /* CKDecimalProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40A91FB7144764CC00C89400 /* CKDecimalProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A91FB5144764CB00C89400 /* CKDecimalProperty.m */; };
+		40A91FBA1447658100C89400 /* CKURIProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A91FB81447658000C89400 /* CKURIProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40A91FBB1447658100C89400 /* CKURIProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A91FB91447658100C89400 /* CKURIProperty.m */; };
+		40A91FBE144765EA00C89400 /* CKIDProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A91FBC144765E900C89400 /* CKIDProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40A91FBF144765EA00C89400 /* CKIDProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A91FBD144765E900C89400 /* CKIDProperty.m */; };
+		40B58BA71444A80600EFC324 /* CKBooleanProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B58BA51444A80600EFC324 /* CKBooleanProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40B58BA81444A80600EFC324 /* CKBooleanProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B58BA61444A80600EFC324 /* CKBooleanProperty.m */; };
 		40F426E7141D371900E83D60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F426E6141D371900E83D60 /* Foundation.framework */; };
 		40F426F5141D371900E83D60 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F426F4141D371900E83D60 /* SenTestingKit.framework */; };
 		40F426F8141D371900E83D60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F426E6141D371900E83D60 /* Foundation.framework */; };
@@ -56,6 +68,7 @@
 		40F42753141D4D1E00E83D60 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F4274E141D4D1E00E83D60 /* libxml2.dylib */; };
 		40F42754141D4D1E00E83D60 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F4274F141D4D1E00E83D60 /* MobileCoreServices.framework */; };
 		40F42755141D4D1E00E83D60 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F42750141D4D1E00E83D60 /* SystemConfiguration.framework */; };
+		40F929DC1444B237007C08A2 /* CKBooleanPropertyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B58BB61444AC8C00EFC324 /* CKBooleanPropertyTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -194,6 +207,20 @@
 		409789E0142A7D3000563F13 /* CmisKittyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CmisKittyTests.m; sourceTree = "<group>"; };
 		409789E2142A7D3000563F13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4097A881142A8E2F00563F13 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = Vendors/RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		40A91FA0144761BF00C89400 /* CKDateProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKDateProperty.h; sourceTree = "<group>"; };
+		40A91FA1144761BF00C89400 /* CKDateProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKDateProperty.m; sourceTree = "<group>"; };
+		40A91FB01447628400C89400 /* CKIntegerProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKIntegerProperty.h; sourceTree = "<group>"; };
+		40A91FB11447628400C89400 /* CKIntegerProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKIntegerProperty.m; sourceTree = "<group>"; };
+		40A91FB4144764CB00C89400 /* CKDecimalProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKDecimalProperty.h; sourceTree = "<group>"; };
+		40A91FB5144764CB00C89400 /* CKDecimalProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKDecimalProperty.m; sourceTree = "<group>"; };
+		40A91FB81447658000C89400 /* CKURIProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKURIProperty.h; sourceTree = "<group>"; };
+		40A91FB91447658100C89400 /* CKURIProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKURIProperty.m; sourceTree = "<group>"; };
+		40A91FBC144765E900C89400 /* CKIDProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKIDProperty.h; sourceTree = "<group>"; };
+		40A91FBD144765E900C89400 /* CKIDProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKIDProperty.m; sourceTree = "<group>"; };
+		40B58BA51444A80600EFC324 /* CKBooleanProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKBooleanProperty.h; sourceTree = "<group>"; };
+		40B58BA61444A80600EFC324 /* CKBooleanProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKBooleanProperty.m; sourceTree = "<group>"; };
+		40B58BB51444AC8C00EFC324 /* CKBooleanPropertyTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKBooleanPropertyTests.h; sourceTree = "<group>"; };
+		40B58BB61444AC8C00EFC324 /* CKBooleanPropertyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKBooleanPropertyTests.m; sourceTree = "<group>"; };
 		40F426E3141D371900E83D60 /* libCmisKitty.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCmisKitty.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F426E6141D371900E83D60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		40F426F3141D371900E83D60 /* CmisKittyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CmisKittyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -248,6 +275,8 @@
 			children = (
 				404331F0142F6FE800848E7F /* CKAccountTests.h */,
 				404331F1142F6FE800848E7F /* CKAccountTests.m */,
+				40B58BB51444AC8C00EFC324 /* CKBooleanPropertyTests.h */,
+				40B58BB61444AC8C00EFC324 /* CKBooleanPropertyTests.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -275,6 +304,7 @@
 		409789AA142A7D0800563F13 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				409789B3142A7D0800563F13 /* CKModels.h */,
 				409789AB142A7D0800563F13 /* CKAccount.h */,
 				409789AC142A7D0800563F13 /* CKAccount.m */,
 				409789AD142A7D0800563F13 /* CKDocument.h */,
@@ -283,7 +313,6 @@
 				409789B0142A7D0800563F13 /* CKFolder.m */,
 				409789B1142A7D0800563F13 /* CKFolderChildrenResponse.h */,
 				409789B2142A7D0800563F13 /* CKFolderChildrenResponse.m */,
-				409789B3142A7D0800563F13 /* CKModels.h */,
 				409789B4142A7D0800563F13 /* CKObject.h */,
 				409789B5142A7D0800563F13 /* CKObject.m */,
 				409789B6142A7D0800563F13 /* CKProperty.h */,
@@ -292,6 +321,18 @@
 				409789B9142A7D0800563F13 /* CKRepository.m */,
 				409789BA142A7D0800563F13 /* CKStringProperty.h */,
 				409789BB142A7D0800563F13 /* CKStringProperty.m */,
+				40B58BA51444A80600EFC324 /* CKBooleanProperty.h */,
+				40B58BA61444A80600EFC324 /* CKBooleanProperty.m */,
+				40A91FA0144761BF00C89400 /* CKDateProperty.h */,
+				40A91FA1144761BF00C89400 /* CKDateProperty.m */,
+				40A91FB01447628400C89400 /* CKIntegerProperty.h */,
+				40A91FB11447628400C89400 /* CKIntegerProperty.m */,
+				40A91FB4144764CB00C89400 /* CKDecimalProperty.h */,
+				40A91FB5144764CB00C89400 /* CKDecimalProperty.m */,
+				40A91FB81447658000C89400 /* CKURIProperty.h */,
+				40A91FB91447658100C89400 /* CKURIProperty.m */,
+				40A91FBC144765E900C89400 /* CKIDProperty.h */,
+				40A91FBD144765E900C89400 /* CKIDProperty.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -400,10 +441,16 @@
 				409789D4142A7D0800563F13 /* CKStringProperty.h in Headers */,
 				409789D6142A7D0800563F13 /* CKAccountManager.h in Headers */,
 				409789D8142A7D0800563F13 /* CKObjectManagerConfigurator.h in Headers */,
+				40A91FA2144761BF00C89400 /* CKDateProperty.h in Headers */,
+				40B58BA71444A80600EFC324 /* CKBooleanProperty.h in Headers */,
+				40A91FB21447628400C89400 /* CKIntegerProperty.h in Headers */,
+				40A91FB6144764CC00C89400 /* CKDecimalProperty.h in Headers */,
+				40A91FBA1447658100C89400 /* CKURIProperty.h in Headers */,
+				40A91FBE144765EA00C89400 /* CKIDProperty.h in Headers */,
 				409789D9142A7D0800563F13 /* CKObjectManagerJSONConfigurator.h in Headers */,
 				409789DB142A7D0800563F13 /* CKObjectMapping.h in Headers */,
-				409789C3142A7D0800563F13 /* CmisKitty-Prefix.pch in Headers */,
 				409789E3142A7D3000563F13 /* CmisKittyTests.h in Headers */,
+				409789C3142A7D0800563F13 /* CmisKitty-Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +500,7 @@
 		40F426DA141D371900E83D60 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = CmisKitty;
 			};
 			buildConfigurationList = 40F426DD141D371900E83D60 /* Build configuration list for PBXProject "CmisKitty" */;
@@ -600,6 +648,12 @@
 				409789D5142A7D0800563F13 /* CKStringProperty.m in Sources */,
 				409789D7142A7D0800563F13 /* CKAccountManager.m in Sources */,
 				409789DA142A7D0800563F13 /* CKObjectManagerJSONConfigurator.m in Sources */,
+				40B58BA81444A80600EFC324 /* CKBooleanProperty.m in Sources */,
+				40A91FA3144761BF00C89400 /* CKDateProperty.m in Sources */,
+				40A91FB31447628400C89400 /* CKIntegerProperty.m in Sources */,
+				40A91FB7144764CC00C89400 /* CKDecimalProperty.m in Sources */,
+				40A91FBB1447658100C89400 /* CKURIProperty.m in Sources */,
+				40A91FBF144765EA00C89400 /* CKIDProperty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,6 +661,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40F929DC1444B237007C08A2 /* CKBooleanPropertyTests.m in Sources */,
 				4097A8AD142A901800563F13 /* CmisKittyTests.m in Sources */,
 				404331F2142F6FE800848E7F /* CKAccountTests.m in Sources */,
 				404331F9142F8B2E00848E7F /* CKAccountManagerTests.m in Sources */,

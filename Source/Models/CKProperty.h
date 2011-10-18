@@ -25,7 +25,6 @@
     NSString * _identifier;
     NSString * _localName;
     NSString * _queryName;
-    id _value;
     NSString * _type;
     NSString * _displayName;
     NSString * _cardinality;
@@ -35,9 +34,12 @@
 @property(nonatomic,retain) NSString * identifier;
 @property(nonatomic,retain) NSString * localName;
 @property(nonatomic,retain) NSString * queryName;
-@property(nonatomic,retain) id value;
 @property(nonatomic,retain) NSString * type;
 @property(nonatomic,retain) NSString * displayName;
 @property(nonatomic,retain) NSString * cardinality;
+@property(nonatomic,readonly) NSString * displayValue;
+
+-(id)value;
+-(void)setValue:(id)value;
 
 @end

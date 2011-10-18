@@ -22,8 +22,9 @@
 
 @interface CKStringProperty : CKProperty{
     
+    
 }
 
-@property(nonatomic,retain) NSString * stringValue;
+@property(nonatomic,retain) NSString * value;
 
 @end

@@ -205,6 +205,7 @@
 		40433211142FB6BE00848E7F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Altran Sverige AB";
 			};
 			buildConfigurationList = 40433214142FB6BE00848E7F /* Build configuration list for PBXProject "CKBrowser" */;
@@ -356,8 +357,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CKBrowser/CKBrowser-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
 				INFOPLIST_FILE = "CKBrowser/CKBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";
@@ -371,8 +374,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CKBrowser/CKBrowser-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
 				INFOPLIST_FILE = "CKBrowser/CKBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";

@@ -117,7 +117,7 @@
     // Configure the cell...
     CKProperty * property = ( CKProperty *)[self.object.properties objectAtIndex:indexPath.row];
     cell.textLabel.text = property.displayName;
-    cell.detailTextLabel.text = [property stringValue];
+    cell.detailTextLabel.text = [property displayValue];
     return cell;
 }
 

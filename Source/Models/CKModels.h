@@ -29,5 +29,11 @@
 #import "CKProperty.h"
 #import "CKRepository.h"
 #import "CKStringProperty.h"
+#import "CKDateProperty.h"
+#import "CKIDProperty.h"
+#import "CKIntegerProperty.h"
+#import "CKDecimalProperty.h"
+#import "CKURIProperty.h"
+#import "CKBooleanProperty.h"
 
 #endif
